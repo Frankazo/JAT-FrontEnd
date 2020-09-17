@@ -9,3 +9,34 @@ Developers should run these often!
 - `npm run build`: place bundled styles and scripts where `index.html` can find
     them
 - `npm run deploy`: builds and deploys master branch
+
+# Job Apps Tracker:
+
+## Setup Steps
+
+## Important Links
+
+- [API Repo]
+- [Deployed API]
+- [Deployed Client]
+
+## Planning Story
+
+### User Stories
+
+### Technologies Used
+
+### Unsolved Problems
+
+
+---
+
+#### ERD:
+
+---
+
+#### Wireframe:
+---
+
+#### Screenshots:
+

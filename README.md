@@ -22,21 +22,15 @@ Developers should run these often!
 
 ## Planning Story
 
-### User Stories
+## User Stories
 
-### Technologies Used
+## Technologies Used
 
-### Unsolved Problems
+## Unsolved Problems
 
+## ERD:
 
----
+## Wireframe:
 
-#### ERD:
-
----
-
-#### Wireframe:
----
-
-#### Screenshots:
+## Screenshots:
 

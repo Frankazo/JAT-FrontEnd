@@ -13,7 +13,8 @@ Developers should run these often!
 # Job Apps Tracker:
 
 ## Setup Steps
-
+  - npm install
+  - npm start
 ## Important Links
 
 - [API Repo]

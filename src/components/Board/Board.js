@@ -21,7 +21,7 @@ class Board extends Component {
                         const column = this.state.columns[columnId];
                         const tasks = column.taskIds.map(taskId => this.state.tasks[taskId]);
 
-                        return <Column key={column.id} column={column} tasks={tasks} />;
+                        return <Column key={column.id} column={column} tasks={tasks} ref={this.props.innerRef}/>;
                     })}
             </DragDropContext>
         )

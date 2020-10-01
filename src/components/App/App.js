@@ -43,9 +43,7 @@ class App extends Component {
           />
         ))}
         <main className="container">
-          <Route path='/tracker' render={() => (
             <Board />
-          )} />
           <Route path='/sign-up' render={() => (
             <SignUp msgAlert={this.msgAlert} setUser={this.setUser} />
           )} />

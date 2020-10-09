@@ -17,7 +17,8 @@ Developers should run these often!
   - npm start
 ## Important Links
 
-- [API Repo]
+- [Front End](https://github.com/Frankazo/JAT-FrontEnd)
+- [Back end](https://github.com/Frankazo/JAT-BackEnd)
 - [Deployed API]
 - [Deployed Client]
 

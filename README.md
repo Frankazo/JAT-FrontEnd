@@ -55,4 +55,6 @@ Developers should run these often!
 -
 ![wireframe](https://i.imgur.com/vJ9mISN.jpg)
 
+## License
 
+- [MIT License](./LICENSE)

@@ -13,7 +13,6 @@ const unauthenticatedOptions = (
   <Fragment>
     <Nav.Link style={{ color: `#000` }} href="#sign-up">Sign Up</Nav.Link>
     <Nav.Link style={{ color: `#000` }} href="#sign-in">Sign In</Nav.Link>
-    <Nav.Link style={{ color: `#000` }} href="#about">About</Nav.Link>
   </Fragment>
 )
 

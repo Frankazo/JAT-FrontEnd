@@ -8,7 +8,8 @@ import SignUp from '../SignUp/SignUp'
 import SignIn from '../SignIn/SignIn'
 import SignOut from '../SignOut/SignOut'
 import ChangePassword from '../ChangePassword/ChangePassword'
-import Board from '../Board/Board.js'
+// import Board from '../Board/Board.js'
+import About from '../About/About.js'
 
 class App extends Component {
   constructor () {
@@ -43,12 +44,14 @@ class App extends Component {
           />
         ))}
         <main className="container">
-            <Board />
           <Route path='/sign-up' render={() => (
             <SignUp msgAlert={this.msgAlert} setUser={this.setUser} />
           )} />
           <Route path='/sign-in' render={() => (
             <SignIn msgAlert={this.msgAlert} setUser={this.setUser} />
+          )} />
+          <Route path='/about' render={() => (
+            <About msgAlert={this.msgAlert} setUser={this.setUser}/>
           )} />
           <AuthenticatedRoute user={user} path='/sign-out' render={() => (
             <SignOut msgAlert={this.msgAlert} clearUser={this.clearUser} user={user} />

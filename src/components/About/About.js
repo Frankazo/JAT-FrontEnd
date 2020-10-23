@@ -2,11 +2,6 @@ import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 
 class About extends Component {
-  constructor() {
-    super();
-
-  }
-
   render() {
     return (
       <div className="row">

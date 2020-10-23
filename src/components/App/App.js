@@ -8,7 +8,7 @@ import SignUp from '../SignUp/SignUp'
 import SignIn from '../SignIn/SignIn'
 import SignOut from '../SignOut/SignOut'
 import ChangePassword from '../ChangePassword/ChangePassword'
-// import Board from '../Board/Board.js'
+import Board from '../Board/Board.js'
 import About from '../About/About.js'
 
 class App extends Component {
@@ -58,6 +58,9 @@ class App extends Component {
           )} />
           <AuthenticatedRoute user={user} path='/change-password' render={() => (
             <ChangePassword msgAlert={this.msgAlert} user={user} />
+          )} />
+           <AuthenticatedRoute user={user} path='/board' render={() => (
+            <Board msgAlert={this.msgAlert} user={user} />
           )} />
         </main>
       </Fragment>
